@@ -1,0 +1,12 @@
+public class AlphabetSorting {
+    public static void main(String[] args) {
+        char[] alphabets = {'a', 'p', 'p', 'l', 'e', 's'};
+        
+        java.util.Arrays.sort(alphabets);
+        
+        System.out.println("Alphabets in Ascending Order:");
+        for (char alphabet : alphabets) {
+            System.out.print(alphabet + " ");
+        }
+    }
+}
