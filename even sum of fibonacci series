@@ -1,0 +1,18 @@
+public class EvenSumFibonacci {
+    public static void main(String[] args) {
+        int n = 10; // Number of terms in the Fibonacci series
+        int a = 0, b = 1, c, sum = 0;
+
+        for (int i = 1; i <= n; i++) {
+            c = a + b;
+            a = b;
+            b = c;
+
+            if (c % 2 == 0) {
+                sum += c;
+            }
+        }
+
+        System.out.println("Sum of even Fibonacci numbers: " + sum);
+    }
+}
