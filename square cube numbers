@@ -1,0 +1,8 @@
+import java.util.Scanner;
+public class NumberPowers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Given Number: ");
+        double number = scanner.nextDouble();
+}
+}
